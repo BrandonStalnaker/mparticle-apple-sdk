@@ -8,5 +8,13 @@ mv tmp.json mParticle_Apple_SDK.json
 sudo npm install -g podspec-bump
 podspec-bump -w -i $VERSION
 
+#update README.md
+sed -i '.bak' "s/'com.mparticle:apple-core:.*'/'com.mparticle:apple-core:$1'/g" README.md
+
+#commit the version bump, tag, and push to private and public
+git add mParticle-Apple-SDK.podspec
+git add mParticle_Apple_SDK.json
+git add README.md
+
 ./Scripts/make_artifacts.sh
 ls mParticle_Apple_SDK.framework.zip mParticle_Apple_SDK.framework.nolocation.zip mParticle_Apple_SDK.xcframework.zip mParticle_Apple_SDK.xcframework.nolocation.zip generated-docs.zip || exit 1
