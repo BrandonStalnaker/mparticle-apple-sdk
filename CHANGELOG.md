@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/BrandonStalnaker/mparticle-apple-sdk/compare/v1.0.3...v1.1.0) (2021-07-08)
+
+
+### Bug Fixes
+
+* Add Notes ([ff78e25](https://github.com/BrandonStalnaker/mparticle-apple-sdk/commit/ff78e2538c6843900793d97ba7c78eab6e2d9e0e))
+* Cause commit ([4ed2453](https://github.com/BrandonStalnaker/mparticle-apple-sdk/commit/4ed24532d05def62004f52a060c0d49faf227ba1))
+
+
+### Features
+
+* Fix Notes for release ([e147797](https://github.com/BrandonStalnaker/mparticle-apple-sdk/commit/e147797530bd2c729f423f91621a2992ef08d72d))
+
 # mParticle Apple SDK CHANGELOG
 
 ## 8.4.0
