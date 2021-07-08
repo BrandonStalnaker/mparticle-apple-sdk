@@ -125,7 +125,7 @@ jobs:
       - name: "Add new release branch commits to public/master for release"
         if: ${{ github.event.inputs.dryRun == 'false' }}
         run: |
-          git remote add internal https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/BrandonStalnaker/mparticle-android-sdk.git
+          git remote add internal https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/BrandonStalnaker/mparticle-apple-sdk.git
           git fetch internal
           git pull internal release/${{ github.run_number }}
       - name: "Merge back release commits to public/master repository"
