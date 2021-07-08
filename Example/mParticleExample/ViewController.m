@@ -123,7 +123,7 @@
 }
 
 - (void)logScreen {
-    [[MParticle sharedInstance] logScreen:@"Home Screen" eventInfo:nil];
+    [[MParticle sharedInstance] logScreen:@"Home Screen 2" eventInfo:nil];
 }
 
 - (void)logCommerceEvent {
