@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/BrandonStalnaker/mparticle-apple-sdk/compare/v1.1.0...v1.1.1) (2021-07-09)
+
+
+### Bug Fixes
+
+* Add Constants and Info.plist ([5916951](https://github.com/BrandonStalnaker/mparticle-apple-sdk/commit/591695103908d89f2832132bedc5d217bcfc75fd))
+* Version needs V ([373ce3e](https://github.com/BrandonStalnaker/mparticle-apple-sdk/commit/373ce3ed838bda166492d6a0f10617d4a4470ba0))
+
 # [1.1.0](https://github.com/BrandonStalnaker/mparticle-apple-sdk/compare/v1.0.3...v1.1.0) (2021-07-08)
 
 
